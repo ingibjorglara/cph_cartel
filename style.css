@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+}
+
+.banner_video {
+    padding: 10px;
+}
+
+.video {
+    padding: 10px;
+}
+
+.material_1 {
+    padding: 10px;
+    background-color: #FFCE00;
+}
+
+.our_partners {
+    padding: 10px;
+}
+
+.material_2 {
+    padding: 10px;
+    background-color: #FC6D3A;
+}
+
+.tags {
+    padding: 10px;
+}
+
+.contact {
+    padding: 10px;
+}
+
+h1{
+    font-size: large;
+}
+
+h2{
+    font-size: large;
+    color: #FC6D3A;
+}
+
+h3{
+    color: #0B25B7;
+}
+
+h4{
+    color: #0B25B7;
+}
+
+h5{
+    font-size: large;
+    color: #0B25B7;
+}
+
+h6{
+    font-size: large;
+    color: #FFCE00;
+}
+
+h7{
+    font-size: large;
+    color: #FFCE00;
+}
+
+h8{
+    font-size: large;
+    color: #FC6D3A;
+}
+
+.tags p{
+    font-size: large;
+    color: #FC6D3A;
+}
+
+.contact p {
+    font-size: large;
+    color: #FC6D3A;
+}
