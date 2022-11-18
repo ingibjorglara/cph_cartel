@@ -1,80 +1,138 @@
-body{
-    text-align: center;
+/* --- FONTS --- */
+
+@font-face {
+  font-family: Brice;
+  src: url(font/Brice-SemiBold.otf);
 }
 
-.banner_video {
-    padding: 10px;
+@font-face {
+  font-family: Satoshi-Light;
+  src: url(font/Satoshi-Light.otf);
 }
 
-.video {
-    padding: 10px;
+@font-face {
+  font-family: Satoshi-Regular;
+  src: url(font/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: Satoshi-Medium;
+  src: url(font/Satoshi-Medium.otf);
+}
+
+@font-face {
+  font-family: Satoshi-Bold;
+  src: url(font/Satoshi-Bold.otf);
+}
+
+/* --- VAR --- */
+
+:root {
+  --deep-blue: #0b25b7;
+  --pale-coral: #ead0ca;
+  --sun-yellow: #ffce00;
+  --coral-orange: #fc6d3a;
+  --pale-blue: #d7e4f2;
+  --black: #1f1f20;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* --- HEADER --- */
+#cphcartel-logo {
+  max-height: 8vw;
+}
+
+/* --- VIDEO BANNER --- */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f20;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+#banner-video {
+  max-width: 100%;
+  opacity: 60%;
+}
+
+.banner-text {
+  position: absolute;
+  max-width: 80%;
+}
+
+h1 {
+  font-family: Brice;
+  font-size: 5vw;
+  color: white;
+  line-height: 6vw;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 2vw;
+}
+
+
+/* IN PROGRESS */
+body {
+  text-align: center;
 }
 
 .material_1 {
-    padding: 10px;
-    background-color: #FFCE00;
+  padding: 10px;
+  background-color: var(--sun-yellow);
 }
 
 .our_partners {
-    padding: 10px;
+  padding: 10px;
 }
 
 .material_2 {
-    padding: 10px;
-    background-color: #FC6D3A;
+  padding: 10px;
+  background-color: var(--coral-orange);
 }
 
 .tags {
-    padding: 10px;
+  padding: 10px;
 }
 
 .contact {
-    padding: 10px;
+  padding: 10px;
 }
 
-h1{
-    font-size: large;
+h3 {
+  color: var(--deep-blue);
 }
 
-h2{
-    font-size: large;
-    color: #FC6D3A;
+h4 {
+  font-family: Brice;
+  color: var(--deep-blue);
 }
 
-h3{
-    color: #0B25B7;
+h5 {
+  font-family: Brice;
+  font-size: large;
+  color: var(--deep-blue);
 }
 
-h4{
-    color: #0B25B7;
+p {
+  font-family: Satoshi-Light;
 }
 
-h5{
-    font-size: large;
-    color: #0B25B7;
-}
-
-h6{
-    font-size: large;
-    color: #FFCE00;
-}
-
-h7{
-    font-size: large;
-    color: #FFCE00;
-}
-
-h8{
-    font-size: large;
-    color: #FC6D3A;
-}
-
-.tags p{
-    font-size: large;
-    color: #FC6D3A;
+.tags p {
+  font-family: Brice;
+  font-size: large;
+  color: var(--coral-orange);
 }
 
 .contact p {
-    font-size: large;
-    color: #FC6D3A;
+  font-size: large;
+  color: var(--coral-orange);
 }
